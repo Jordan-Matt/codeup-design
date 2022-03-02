@@ -13,11 +13,9 @@
     <body>
         <div class="container-fluid p-0" style="background-color: #e6e6e6">
 
-    <!-- Start Navbar Small-->
-
-        <nav class="row-xs-12">
+    <!-- Start Navbar XSmall-->
+        <nav class="row-xs-12 d-sm-none">
             <div class="container" style="height: 60px">
-                <!-- TODO: This container is empty. Probably remove it? -->
             </div>
             <div class="container navbar-light bg-white p-0 d-flex justify-content-center" style="height: 60px">
                 <a class="navbar-brand d-flex align-items-center" href="#">
@@ -36,49 +34,30 @@
                 </ul>
             </div>
         </nav>
+    <!-- End Navbar XSmall -->
 
+    <!-- Start Navbar Small-->
+        <nav class="d-xs-none row">
+           <div class="container" style="height: 60px">
+           </div>
+            <div class="container navbar-light bg-white p-0 d-flex justify-content-center" style="height: 60px">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="" src="img/logo.png" alt="" width="105" height="105">
+                </a>
+            </div>
+            <br>
+            <h1 class="text-center" style="font-family: abel; font-size: 3rem" >codeup design</h1>
+            <br>
+            <div class="col">
+                <ul class="d-flex justify-content-center p-0" style="list-style: none;">
+                    <li style="padding: 0 10px;">SERVICES</li>
+                    <li style="padding: 0 10px;">WORK</li>
+                    <li style="padding: 0 10px;">BLOG</li>
+                    <li style="padding: 0 10px;">CONTACT</li>
+                </ul>
+            </div>
+        </nav>
     <!-- End Navbar Small -->
-
-    <!-- Start Navbar Medium-->
-<!--    <nav class="row-md-12">
-
-        <div class="container" style="height: 60px">
-
-
-        </div>
-
-        <div class="container navbar-light bg-white p-0 d-flex justify-content-center" style="height: 60px">
-
-            <a class="navbar-brand d-flex align-items-center" href="#">
-
-                <img class="" src="img/logo.png" alt="" width="105" height="105">
-
-            </a>
-
-        </div>
-
-        <br>
-
-        <h1 class="text-center" style="font-family: abel; font-size: 3rem" >codeup design</h1>
-
-        <div class="col">
-
-            <ul class="row text-center p-0" style="list-style: none">
-
-                <li>SERVICES</li>
-
-                <li>WORK</li>
-
-                <li>BLOG</li>
-
-                <li>CONTACT</li>
-
-            </ul>
-
-        </div>
-
-    </nav> -->
-    <!-- End Navbar Medium -->
 
     <!-- Start Body Section -->
 
@@ -90,31 +69,23 @@
             <h2 class="text-center" style="font-family: Anton; font-size: 32px">FROM PARK CITY, UTAH</h2>
             <br>
             <div class="row d-flex justify-content-evenly">
-
-                <p class="rounded-circle circle-img border border-5 border-white col-6" style="background-color: #e6563b">Design</p>
-                <p class="rounded-circle circle-img border border-5 border-white col-6" style="background-color: #eb9d3a">Develop</p>
-                <p class="rounded-circle circle-img border border-5 border-white col-6" style="background-color: #7cb06c">Support</p>
-                <p class="rounded-circle circle-img border border-5 border-white col-6" style="background-color: #00aba9">Host</p>
-
-
-
-                <!-- <p><ion-icon name="ellipse"></ion-icon>Design</p>
-                <p><ion-icon name="ellipse"></ion-icon>Develop</p>
-                <p><ion-icon name="ellipse"></ion-icon>Support</p>
-                <p><ion-icon name="ellipse"></ion-icon>Host</p>-->
+                <p class="col-xs-6 col-sm-3 rounded-circle circle-img border border-5 border-white" style="background-color: #e6563b">Design</p>
+                <p class="col-xs-6 col-sm-3 rounded-circle circle-img border border-5 border-white" style="background-color: #eb9d3a">Develop</p>
+                <p class="col-xs-6 col-sm-3 rounded-circle circle-img border border-5 border-white" style="background-color: #7cb06c">Support</p>
+                <p class="col-xs-6 col-sm-3 rounded-circle circle-img border border-5 border-white" style="background-color: #00aba9">Host</p>
             </div>
         </div>
     <!-- End Body Section -->
 
-<!-- Start Last Section / First Column -->
-<!--  TODO: This should be the first column with 'the last' section being the second within a larger container  -->
+    <!-- Start Last Section / First Column -->
+    <!--  TODO: This should be the first column with 'the last' section being the second within a larger container  -->
         <div class="container">
             <div>
                 <h2>SELECTED WORK</h2>
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="col align-items-center border border-5 border-light" src="img/apple-ipad.jpg" alt="Green apples on an ipad">
+                    <img class="col align-items-center border border-5 border-light img-fluid" src="img/apple-ipad.jpg" alt="Green apples on an ipad">
                 </a>
                 <div class="row m-0">
                     <p class="col" style="font-family: abel">FEATURED PROJECT</p>
@@ -126,7 +97,7 @@
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="col align-items-center border border-5 border-light" src="img/macbook.jpg" alt="apple products">
+                    <img class="col align-items-center border border-5 border-light img-fluid" src="img/macbook.jpg" alt="apple products">
                 </a>
                 <div class="row m-0">
                     <p class="col" style="font-family: abel">FEATURED PROJECT</p>
@@ -138,7 +109,7 @@
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="col align-items-center border border-5 border-light" src="img/man.jpg" alt="Man with glasses">
+                    <img class="col align-items-center border border-5 border-light img-fluid" src="img/man.jpg" alt="Man with glasses">
                 </a>
                 <div class="row m-0">
                     <p class="col" style="font-family: abel">FEATURED PROJECT</p>
@@ -150,7 +121,7 @@
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="col align-items-center border border-5 border-light" src="img/security.jpg" alt="google security search">
+                    <img class="col align-items-center border border-5 border-light img-fluid" src="img/security.jpg" alt="google security search">
                 </a>
                 <div class="row m-0">
                     <p class="col" style="font-family: abel">FEATURED PROJECT</p>
@@ -166,31 +137,31 @@
     <!-- End Last Section / First Column -->
 
     <!-- Start Last Section / Second Column -->
-<!-- TODO: This should be the 2nd column with the 'featured/selected projects' section being the first within a larger container -->
+    <!-- TODO: This should be the 2nd column with the 'featured/selected projects' section being the first within a larger container -->
         <div class="container-lg col">
             <div>
-                <h3>The Last</h3>
+                <p>The Last</p>
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="" src="img/mobile-phone.jpg" alt="Mobile phone on social media" width="100" height="100">
+                    <img class="img-fluid" src="img/mobile-phone.jpg" alt="Mobile phone on social media" width="100" height="100">
                 </a>
                 <h3 style="font-family: Anton;">THE ADMIN BAR AND ABSOLUTE POSITIONING</h3>
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="" src="" alt="" width="105" height="105">
+                    <img class="" src="img/head.jpg" alt="" width="105" height="105">
                 </a>
-                <p>NIBBLER AWESOME WEBSITE TESTING</p>
+                <h3 style="font-family: Anton;">NIBBLER AWESOME WEBSITE TESTING</h3>
             </div>
             <div>
                 <a class="d-flex align-items-center" href="#">
-                    <img class="" src="img/head.jpg" alt="" width="105" height="105">
+                    <img class="" src="img/ipad.jpg" alt="" width="105" height="105">
                 </a>
-                <p>HOW TO GET GOOGLE TO LIKE YOU</p>
+                <h3 style="font-family: Anton;">HOW TO GET GOOGLE TO LIKE YOU</h3>
             </div>
             <div>
-                <a class="d-flex align-items-center" href="#">ICON / LAST TWEET </a>
+                <a class="d-flex align-items-center" href="#"><ion-icon name="logo-twitter"></ion-icon> LAST TWEET </a>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur fugiat hic
                     illum laborum molestias mollitia neque quam totam velit veritatis?</p>
             </div>
