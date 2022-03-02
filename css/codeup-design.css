@@ -1,5 +1,22 @@
-ion-icon {
-    font-size: 256px;
-    color: #e6563b;
-
+.circle-img {
+    height: 105px;
+    width: 105px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: anton;
 }
+
+.icon-circle-img {
+    height: 18px;
+    width: 18px;
+    margin: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: anton;
+}
+
+
