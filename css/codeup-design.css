@@ -21,27 +21,38 @@
 
 @media (min-width: 576px) {
     .img-resize {
-        max-width: 300px;
-
+        width: 50%;
+    }
+    .img-width {
+        max-width: 200px;
     }
 }
 
 @media (min-width: 768px) {
     .img-resize {
-        max-width: 350px;
+        width: 50%;
+    }
+    .img-width {
+        max-width: 250px;
     }
 }
 
 
 @media (min-width: 992px) {
     .img-resize {
-        max-width: 400px;
+        width: 50%;
+    }
+    .img-width {
+        max-width: 300px;
     }
 }
 
 @media (min-width: 1200px) {
     .img-resize {
-        max-width: 450px;
+        width: 50%;
+    }
+    .img-width {
+        max-width: 350px;
     }
 }
 
