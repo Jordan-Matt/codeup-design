@@ -27,7 +27,7 @@
             <h1 class="text-center" style="font-family: abel; font-size: 3rem" >codeup design</h1>
             <br>
             <div class="col">
-                <ul class="d-flex justify-content-center p-0" style="list-style: none;">
+                <ul class="d-flex justify-content-center p-0" style="list-style: none; font-family: Abel;">
                     <li style="padding: 0 10px;">SERVICES</li>
                     <li style="padding: 0 10px;">WORK</li>
                     <li style="padding: 0 10px;">BLOG</li>
@@ -38,27 +38,49 @@
     <!-- End Navbar XSmall -->
 
     <!-- Start Navbar Small-->
-        <nav class="row d-none d-sm">
+        <nav class="row d-none d-sm-block d-lg-none d-xl-none d-xxl-none">
            <div class="container" style="height: 60px">
            </div>
             <div class="container navbar-light bg-white p-0 d-flex justify-content-center" style="height: 60px">
+
+                <ul class="d-flex justify-content-center align-items-end p-0" style="list-style: none; font-family: Abel;">
+                    <li style="padding: 0 20px;">SERVICES</li>
+                    <li style="padding: 0 25px;">WORK</li>
+                </ul>
                 <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img class="" src="img/logo.png" alt="" width="105" height="105">
+                    <img class="" src="img/logo.png" alt="" width="115" height="115">
                 </a>
+                <ul class="d-flex justify-center align-items-end p-0" style="list-style: none; font-family: Abel;">
+                    <li style="padding: 0 20px;">BLOG</li>
+                    <li style="padding: 0 20px;">CONTACT</li>
+                </ul>
             </div>
             <br>
             <h1 class="text-center" style="font-family: abel; font-size: 3rem" >codeup design</h1>
             <br>
-            <div class="col">
-                <ul class="d-flex justify-content-center p-0" style="list-style: none;">
-                    <li style="padding: 0 10px;">SERVICES</li>
-                    <li style="padding: 0 10px;">WORK</li>
-                    <li style="padding: 0 10px;">BLOG</li>
-                    <li style="padding: 0 10px;">CONTACT</li>
-                </ul>
-            </div>
+
         </nav>
     <!-- End Navbar Small -->
+
+    <!-- Start Navbar Large-->
+        <nav class="row d-none d-lg-block">
+            <div class="container" style="height: 60px">
+            </div>
+            <div class="container navbar-light bg-white p-0 d-flex" style="height: 60px">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="" src="img/logo.png" alt="" width="105" height="105" style="margin-left: 50px;">
+                </a>
+                <h1 class="text-center d-flex justify-content-start align-items-center" style="font-family: abel; font-size: 2.2rem" >codeup design</h1>
+                <ul class="d-flex flex-grow-1 justify-content-end align-items-end p-0" style="list-style: none; font-family: Abel;">
+                    <li style="padding: 0 20px;">SERVICES</li>
+                    <li style="padding: 0 20px;">WORK</li>
+                    <li style="padding: 0 20px;">BLOG</li>
+                    <li style="padding: 0 20px;">CONTACT</li>
+            </div>
+            <br>
+            <br>
+        </nav>
+    <!-- End Navbar Large -->
 
     <!-- Start Body Section -->
 
@@ -78,6 +100,16 @@
                 <div class="rounded-circle circle-img border border-5 border-white" style="background-color: #7cb06c">Support</div>
                 <div class="rounded-circle circle-img border border-5 border-white" style="background-color: #00aba9">Host</div>
             </div>
+            <hr class="d-none d-sm-block">
+            <br>
+            <br>
+            <br>
+            <div class="d-block d-lg-none d-xl-none d-xxl-none">
+                <p class="text-center" style="font-family: Abel;">SELECTED WORK</p>
+            </div>
+            <div class=" d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                <p style="font-family: Abel;">SELECTED WORK</p>
+            </div>
         </div>
     <!-- End Body Section -->
 
@@ -85,9 +117,7 @@
     <!--  TODO: This should be the first column with 'the last' section being the second within a larger container  -->
 
         <div class="container img-resize">
-            <div>
-                <h2>SELECTED WORK</h2>
-            </div>
+
             <div class="">
                 <a class="d-flex align-items-center" href="#">
                     <img class="col align-items-center border border-5 border-light img-fluid" src="img/apple-ipad.jpg" alt="Green apples on an ipad">
@@ -143,10 +173,11 @@
 
     <!-- Start Last Section / Second Column -->
     <!-- TODO: This should be the 2nd column with the 'featured/selected projects' section being the first within a larger container -->
-        <div class="container-lg col">
-            <div>
-                <p>The Last</p>
-            </div>
+        <div>
+            <p>The Last</p>
+        </div>
+        <div class="container d-flex">
+
             <div>
                 <a class="d-flex align-items-center" href="#">
                     <img class="img-fluid" src="img/mobile-phone.jpg" alt="Mobile phone on social media" width="100" height="100">
