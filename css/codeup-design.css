@@ -22,6 +22,7 @@
 @media (min-width: 576px) {
     .img-resize {
         width: 50%;
+
     }
     .img-width {
         max-width: 200px;
@@ -31,6 +32,7 @@
 @media (min-width: 768px) {
     .img-resize {
         width: 50%;
+
     }
     .img-width {
         max-width: 250px;
@@ -41,6 +43,7 @@
 @media (min-width: 992px) {
     .img-resize {
         width: 50%;
+
     }
     .img-width {
         max-width: 300px;
@@ -48,6 +51,17 @@
 }
 
 @media (min-width: 1200px) {
+    body{
+        margin: 0 100px;
+        background-color: #e6e6e6;
+    }
+   /* .big-body{
+        max-width:1000px;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+    }*/
+
     .img-resize {
         width: 50%;
     }
